@@ -1,110 +1,73 @@
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: #f5f7fb;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elite Cricket Academy</title>
+  <link rel="stylesheet" href="style.css">
+</head>
 
-/* Navbar */
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: #0b3d91;
-  padding: 15px 20px;
-  color: white;
-}
+<body>
 
-.logo {
-  font-size: 20px;
-  font-weight: bold;
-}
+<header class="navbar">
+  <div class="logo">🏏 Elite Cricket Academy</div>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Training</a>
+    <a href="#">Coaches</a>
+    <a href="#">Contact</a>
+  </nav>
+</header>
 
-nav a {
-  color: white;
-  margin: 0 10px;
-  text-decoration: none;
-}
+<section class="hero">
+  <h1>Become a Professional Cricketer</h1>
+  <p>Top coaching for batting, bowling & fitness training</p>
+  <button>Join Academy</button>
+</section>
 
-nav a:hover {
-  color: #ffcc00;
-}
+<section class="section">
+  <h2>About Us</h2>
+  <p>
+    Elite Cricket Academy is a professional training center for young players who want to improve their cricket skills with expert coaches.
+  </p>
+</section>
 
-/* Hero */
-.hero {
-  text-align: center;
-  padding: 80px 20px;
-  background: linear-gradient(to right, #0b3d91, #1e90ff);
-  color: white;
-}
+<section class="cards">
+  <div class="card">
+    <h3>🏏 Batting</h3>
+    <p>Advanced techniques & practice sessions</p>
+  </div>
 
-.hero button {
-  padding: 12px 20px;
-  border: none;
-  background: #ffcc00;
-  font-weight: bold;
-  cursor: pointer;
-  margin-top: 10px;
-}
+  <div class="card">
+    <h3>🎯 Bowling</h3>
+    <p>Fast bowling & spin training</p>
+  </div>
 
-/* Sections */
-.section {
-  padding: 40px;
-  text-align: center;
-}
+  <div class="card">
+    <h3>⚡ Fitness</h3>
+    <p>Strength & stamina building</p>
+  </div>
+</section>
 
-.dark {
-  background: #0b3d91;
-  color: white;
-}
+<section class="section dark">
+  <h2>Our Coaches</h2>
+  <p>Certified and experienced cricket trainers</p>
+</section>
 
-/* Cards */
-.cards {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 20px;
-  padding: 40px;
-}
+<section class="contact">
+  <h2>Contact Us</h2>
+  <form>
+    <input type="text" placeholder="Your Name">
+    <input type="email" placeholder="Your Email">
+    <textarea placeholder="Your Message"></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
 
-.card {
-  background: white;
-  padding: 20px;
-  width: 200px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
+<footer>
+  <p>© 2026 Elite Cricket Academy | All Rights Reserved</p>
+</footer>
 
-/* Contact */
-.contact {
-  padding: 40px;
-  text-align: center;
-}
-
-.contact form {
-  display: flex;
-  flex-direction: column;
-  width: 300px;
-  margin: auto;
-}
-
-.contact input,
-.contact textarea {
-  margin: 10px 0;
-  padding: 10px;
-}
-
-.contact button {
-  background: #0b3d91;
-  color: white;
-  padding: 10px;
-  border: none;
-  cursor: pointer;
-}
-
-/* Footer */
-footer {
-  background: black;
-  color: white;
-  text-align: center;
-  padding: 10px;
-}
+</body>
+</html>
