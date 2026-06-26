@@ -1,51 +1,110 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Cricket Academy</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f7fb;
+}
 
-  <header>
-    <h1>🏏 Rising Star Cricket Academy</h1>
-    <p>Learn. Practice. Become a Champion!</p>
-  </header>
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #0b3d91;
+  padding: 15px 20px;
+  color: white;
+}
 
-  <nav>
-    <a href="#">Home</a>
-    <a href="#">About</a>
-    <a href="#">Training</a>
-    <a href="#">Contact</a>
-  </nav>
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+}
 
-  <section class="hero">
-    <h2>Join Best Cricket Training Academy</h2>
-    <p>Professional coaching for kids & beginners</p>
-    <button>Join Now</button>
-  </section>
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
 
-  <section class="info">
-    <h2>About Us</h2>
-    <p>
-      Hum ek professional cricket academy hain jahan beginners se lekar advanced players tak training di jati hai.
-    </p>
-  </section>
+nav a:hover {
+  color: #ffcc00;
+}
 
-  <section class="info">
-    <h2>Our Training</h2>
-    <ul>
-      <li>Batting Practice</li>
-      <li>Bowling Training</li>
-      <li>Fielding Drills</li>
-      <li>Fitness Sessions</li>
-    </ul>
-  </section>
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(to right, #0b3d91, #1e90ff);
+  color: white;
+}
 
-  <footer>
-    <p>© 2026 Rising Star Cricket Academy | All Rights Reserved</p>
-  </footer>
+.hero button {
+  padding: 12px 20px;
+  border: none;
+  background: #ffcc00;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
 
-</body>
-</html>
-https://images.unsplash.com/photo-1540747913346-19e32dc3e97e
+/* Sections */
+.section {
+  padding: 40px;
+  text-align: center;
+}
+
+.dark {
+  background: #0b3d91;
+  color: white;
+}
+
+/* Cards */
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 40px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Contact */
+.contact {
+  padding: 40px;
+  text-align: center;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: auto;
+}
+
+.contact input,
+.contact textarea {
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.contact button {
+  background: #0b3d91;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
